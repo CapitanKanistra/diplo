@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: Rex9zxuu5r
+    url: jdbc:mysql://localhost:3306/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+indexing-settings:
+  sites:
+    - url: https://et-cetera.ru/mobile/
+      name: cetera
+    - url: https://www.playback.ru/
+      name: playback
+    - url: https://dimonvideo.ru/
+      name: dimonvideo
