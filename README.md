@@ -50,10 +50,6 @@ flyway-mysql-инструмент для миграции БД.
 
 Read this before starting!!!
 
-Spring Security identification InMemoryUserDetailsManager
-user name: user
-password: user
-![Снимок экрана (33)](https://user-images.githubusercontent.com/127528578/229529451-6787bb80-dd7b-4fb9-a85d-05698d7222e5.png)
 
 
 Create an empty database search_engine!!! Encoding utf8mb4/utf8mb4_general_ci
